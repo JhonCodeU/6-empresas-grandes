@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/master.css">
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+            <a href="main.html"><h2>JHON<span>CODE</span></h2></a>
+            <nav class="navBar">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="logo" >
+                </a>
+                <a href="#">
+                    <div class="dropdown" style="float:right;">
+                            <button class="dropbtn">
+                                <img src="images/menu.png" alt="boton">
+                            </button>
+                            <div class="dropdown-content" style="left:0;">
+                                <a href="main.html" style="float: left">Home</a>
+                                <a href="gallery.html">Gallery</a>
+                                <a href="about.html">About</a>
+                                <a href="form.html">Contact us</a><!--Aqui estamos-->
+                            </div>
+                    </div>
+                </a>
+            </nav>
+            <header>
+                    <h1 class="anim">Fill out the form to contact us</h1>
+              </header>
+            <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">France</option>
+      <option value="usa">Colombia</option>
+      <option value="usa">Brasil</option>
+      <option value="usa">Argentina</option>
+      <option value="usa">Chile</option>
+      <option value="usa">Ecuador</option>
+      <option value="usa">Panama</option>
+      <option value="usa">Venezuela</option>
+      <option value="usa">Mexico</option>
+    </select>
+    <label for="lname">Address</label>
+    <input type="text" id="ladreess" name="Address" placeholder="Your Address..">
+    <label for="lemail">E-mail</label>
+    <input type="text" id="Email" name="E-mail" placeholder="Your Email..">
+    <label for="lname">Phone</label>
+    <input type="text" id="lphone" name="Phone" placeholder="Your Phone..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    </div>
+
+
+</body>
+</html>

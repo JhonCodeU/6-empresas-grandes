@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HTML & CSS</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/master.css">
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans&display=swap" rel="stylesheet">
+
+       <!--Libreria bosstrap-->
+       <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+</head>
+<body>
+  <div class="wrapper">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" width="50">
+            <a href="main.html"><h2>JHON<span>CODE</span></h2></a>
+      </div>
+        <nav class="navBar">
+        <a href="#">
+            <div class="dropdown" style="float:right;">
+                <button class="dropbtn">
+                    <img src="images/menu.png" alt="boton">
+                </button>
+                <div class="dropdown-content" style="left:0;">
+                    <a href="main.html" style="float: left">Home</a>
+                    <a href="gallery.html">Gallery</a><!--Aqui estamos-->
+                    <a href="about.html">About</a>
+                    <a href="form.html">Contact us</a>
+                </div>
+            </div>
+        </a>
+        </nav>
+        <header>
+                <h1 class="anim">The Top 6 Technology Companies</h1>
+                <p class="anim">If you keep track of these things, you'll note that the list of 
+                    the world's top 10 technology companies continues to be dominated by American 
+                    names. Then again, you'll note that two of the names on the list are Chinese and 
+                    that the second company on the list is Korean.
+                    The names on this roundup of the top 10 technology companies were extracted from 
+                    the Forbes Global 2000 List for 2018. The top of that list is dominated by the 
+                    big banks, with the biggest technology company, Apple, coming in at a mere number 
+                    8 on the list. The Forbes list is based on annual sales, profit, assets, market 
+                    capitalization, and overall market valuation. (All market capitalization figures 
+                    below are as of April 29, 2019.)</p>
+          </header>
+
+          <div class="work">
+                <a href="apple.html"><img class="anim" src="images/applecompany.jpg" alt="apple img" height="320"></a>
+                <a href="google.html"><img class="anim" src="images/google.jpg" alt="project img" height="320"></a>
+                <a href="samsung.html"><img class="anim" src="images/samsung.jpg" alt="project img"></a>
+                <a href="microsotf.html"><img class="anim" src="images/microsoftCompany.jpg" alt="project img"></a>
+                <a href="facebook.html"><img class="anim" src="images/facebook.jpg" alt="project img" height="300"></a>
+                <a href="imb.html"><img class="anim" src="images/ibm.png" alt="project img" height="300"></a>
+          </div>
+
+          <div class="header2">
+                <h1 class="anim">Other Projects</h1>
+                <p class="anim">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sit necessitatibus, eos minima odio, ea ipsam, dicta nihil praesentium soluta fugit aspernatur nisi enim libero quos omnis? Optio suscipit quibusdam incidunt maiores repudiandae laudantium eaque, obcaecati totam architecto aut ab?</p>
+          </div>
+
+          <div class="work2">
+                <img class="anim" src="images/earth.jpg" alt="project img">
+                <img class="anim" src="images/spaceMan.jpg" alt="project img">
+          </div>
+
+          <footer>
+                <p>JhonCode | Design Programing</p>
+          </footer>
+    </div>
+    <script type="text/javascript">
+          window.sr = ScrollReveal();
+          sr.reveal('.anim');
+    </script>
+</body>
+</html>
